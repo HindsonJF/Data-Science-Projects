@@ -71,7 +71,7 @@ A Random Forest model had a grid search run over a quite limited amount number o
 ### Naive Bayes Models:
 Two Naïve Bayes Models were fitted. The first a Gaussian Naïve Bayes model had an F1-Macro Score of 0.75 whereas the Bernoulli Naïve Bayes had an F1-Macro Score of 0.13.
 
-### Conclusion:
+## Conclusion:
 It is possible to get reasonably accurate predictions for the number of open ion channels using primarily just the signal strength if the data has been cleaned by removing any drift manually. KNN, Decision Trees and Random Forests Models all performed roughly equally well suggesting that a limit was reach as to models could infer form the data it was trained with. Better signal processing and feature extraction should be able to lead to very high levels of accuracy, possibly with F1-Macro Scores over 95%.
 It seems that with such improvements it will be the case that the interpreting of patch clamp data could be mostly automated, except for the removal of drift in the signal.
 
