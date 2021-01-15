@@ -74,3 +74,14 @@ Two Naïve Bayes Models were fitted. The first a Gaussian Naïve Bayes model had
 ### Conclusion:
 It is possible to get reasonably accurate predictions for the number of open ion channels using primarily just the signal strength if the data has been cleaned by removing any drift manually. KNN, Decision Trees and Random Forests Models all performed roughly equally well suggesting that a limit was reach as to models could infer form the data it was trained with. Better signal processing and feature extraction should be able to lead to very high levels of accuracy, possibly with F1-Macro Scores over 95%.
 It seems that with such improvements it will be the case that the interpreting of patch clamp data could be mostly automated, except for the removal of drift in the signal.
+
+## Challenges and Key Lessons Learnt:
+The main challenges were:
+* Creating good features from the data.
+* Fitting computationally demanding models on consumer hardware.
+* Managing notebooks and code written to keep the work on the project coherent.
+
+The key lessons learnt were:
+*  Sometimes several potential solutions will need to be explored before finding one which works.
+* On demand cloud computing can be very useful in running computationally intensive tasks for quite reasonable costs.
+* More time should be spent researching any specialist techniques are packages for a specific type of problem before embarking on creating the data processing pipeline and running models.
