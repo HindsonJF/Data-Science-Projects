@@ -8,7 +8,7 @@ In an effort to get others help in devising methods to analysis the signal data 
 ### Signal &quot;Drift&quot;:
 Several of the batches which make up the data set had had a drift current added to them by means of a MATLAB script. The drift appears to have been added using parts of sine waves. This was removed by approximating it to a sine wave in this &quot;driftless&quot; data set which was downloaded from [https://www.kaggle.com/cdeotte/data-without-drift](https://www.kaggle.com/cdeotte/data-without-drift). This data set resulted in greatly improved model performance.
 ### Feature Engineering:
-A three of features were engineered from the data. The first of which was the exponential weighted mean, followed by the gradient of the signal and the gradient of the gradient.
+Three features were engineered from the data. The first of which was the exponential weighted mean, followed by the gradient of the signal and the gradient of the gradient.
 ## Exploratory Data Analysis:
 During the feature engineering stage the change in the number open ion channels was computed as well as the length of time between the number of open ion channels changing.
 ![Histogram of Number of Open Ion Channels](https://github.com/HindsonJF/Data-Science-Projects/tree/main/graphs_for_readme/Histogram_of_number_of_open_ion_channels.png?raw=true)
