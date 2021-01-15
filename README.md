@@ -11,11 +11,21 @@ Several of the batches which make up the data set had had a drift current added 
 Three features were engineered from the data. The first of which was the exponential weighted mean, followed by the gradient of the signal and the gradient of the gradient.
 ## Exploratory Data Analysis:
 During the feature engineering stage the change in the number open ion channels was computed as well as the length of time between the number of open ion channels changing.
-![Histogram of Number of Open Ion Channels](https://github.com/HindsonJF/Data-Science-Projects/tree/main/graphs_for_readme/Histogram_of_number_of_open_ion_channels.png)
-![Lineplot of Number of Open Ion Channels](https://github.com/HindsonJF/Data-Science-Projects/tree/main/graphs_for_readme/lineplot_of_open_ion_channels_vs_time.png)
-![Histogram of Diff\_Open\_Channels](https://github.com/HindsonJF/Data-Science-Projects/tree/main/graphs_for_readme/histogram_of_the_change_in_number_of_open_ion_channels.png)
-![Histogram of length\_time\_same (Logarithmic)](https://github.com/HindsonJF/Data-Science-Projects/tree/main/graphs_for_readme/Histogram_of_length_of_time_number_of_ion_channels_open_remains_same_log.png)
-![Correlation heat Map](https://github.com/HindsonJF/Data-Science-Projects/tree/main/graphs_for_readme/heat_map_corr.png)
+
+#### Histogram of the Number of Open Ion Channels:
+![Histogram of Number of Open Ion Channels](https://github.com/HindsonJF/Data-Science-Projects/blob/main/graphs_for_readme/Histogram_of_number_of_open_ion_channels.png)
+
+#### Plot of the Number of Open Ion Channels Against Time:
+![Lineplot of Number of Open Ion Channels](https://github.com/HindsonJF/Data-Science-Projects/blob/main/graphs_for_readme/lineplot_of_open_ion_channels_vs_time.png)
+
+#### Histogram of the Change in Number of Open Ion Channels:
+![Histogram of Diff\_Open\_Channels](https://github.com/HindsonJF/Data-Science-Projects/blob/main/graphs_for_readme/histogram_of_the_change_in_number_of_open_ion_channels.png)
+
+#### Historgram of the Length of Time for which the Number of Ion Channels Open Remains the Same:
+![Histogram of length\_time\_same (Logarithmic)](https://github.com/HindsonJF/Data-Science-Projects/blob/main/graphs_for_readme/Histogram_of_length_of_time_number_of_ion_channels_open_remains_same_log.png)
+
+#### Correlation Heat Map:
+![Correlation heat Map](https://github.com/HindsonJF/Data-Science-Projects/blob/main/graphs_for_readme/heat_map_corr.png)
 
 ## Modelling:
 Eight models were fitted in total with three of them having F1-Macro scores of 0.83 on the holdout test data set. This suggests the models have been well fitted and that any further improvement would come from better signal processing or feature extraction.
