@@ -1,5 +1,33 @@
 # General Assembly Data Science Immersive Capstone Project: Inferring the number of open ion channels for the patch-clamp technique using machine learning.
 
+Table of contents
+=================
+
+<!--ts-->
+   * [Table of contents](#table-of-contents)
+   * [Introduction](#introduction)
+   * [Data Processing](#data-processing)
+      * [Signal Drift](#signal-drift)
+      * [Feature Engineering](#feature-engineering)
+   * [Exploratory Data Analysis](#exploratory-data-analysis)
+      * [Histogram of the Number of Open Ion Channels](#histogram-of-the-number-of-open-ion-channels)
+      * [Plot of the Number of Open Ion Channels Against Time](#plot-of-the-number-of-open-ion-channels-against-time)
+      * [Histogram of the Change in Number of Open Ion Channels](#histogram-of-the-change-in-number-of-open-ion-channels)
+      * [Historgram of the Length of Time for which the Number of Ion Channels Open Remains the Same](#historgram-of-the-length-of-time-for-which-the-number-of-ion-channels-open-remains-the-same)
+      * [Correlation Heat Map](#correlation-heat-map)
+   * [Modelling](#modelling)
+     * [Baseline Prediction Model](#baseline-prediction-model)
+     * [Poisson Regressor Model](#poisson-regressor-model)
+     * [Logistic Regression Model](#logistic-regression-model)
+     * [K-Nearest-Neighbour Model](#k-nearest-neighbour-model)
+     * [Decision Tree Model](#decision-tree-model)
+     * [Random Forest Model](#random-forest-model)
+     * [Naive Bayes Models](#naive-bayes-models)
+   * [Conclusion](#conclusion)
+   * [Challenges and Key Lessons Learnt](#challenges-and-key-lessons-learnt)
+
+<!--te-->
+
 ## Introduction:
 The aim of this project is to train machine learning models to deduce the number of open ion channels from synthetic signal data which is a good facsimile of the real electrophysiological signals.
 
